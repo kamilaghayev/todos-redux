@@ -1,0 +1,48 @@
+.form__todos {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__todos button {
+    padding: 10px;
+    outline: none;
+    background-color: rgb(231, 169, 76);
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.todo__item {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 11px 7px;
+    background-color: rgba(231, 169, 76, .3);
+    border-radius: 4px;
+}
+.todo__main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.todo__list button {
+    padding: 4px 10px;
+    outline: none;
+    background-color: rgb(236, 19, 19);
+    border: none;
+    border-radius: 6px;
+    color: #ffff;
+    cursor: pointer;
+    text-transform: uppercase;
+}

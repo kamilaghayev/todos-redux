@@ -1,0 +1,11 @@
+.primary__btn {
+    padding: 10px;
+    outline: none;
+    background-color: rgb(231, 169, 76);
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
